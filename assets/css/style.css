@@ -176,7 +176,7 @@ height: 1000px;
 /* Tour section  */
 
 .tour-section {
-    background-color: black;
+    background-color: rgb(41, 35, 35);
 
 }
 
@@ -208,7 +208,7 @@ height: 1000px;
     float: right;
     width: 24px;
     height: 24px;
-    background-color: #000;
+    background-color: rgb(209, 16, 16);
     color: #fff;
     border-radius: 50%;
     text-align: center;
@@ -226,6 +226,7 @@ height: 1000px;
 .place-item{
     float: left;
     width: 33.33333333%;
+    padding: 0 8px;
 }
 
 .place-img{
@@ -240,7 +241,7 @@ height: 1000px;
 
 .place-body{
     padding: 16px;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
 }
 
 .place-heading{
@@ -260,7 +261,7 @@ height: 1000px;
 
 .place-buy-btn {
     color: #fff;
-    background-color: #000;
+    background-color: rgb(10, 10, 10);
     text-decoration: none;
     padding: 11px 16px;
     display: inline-block;
@@ -339,8 +340,39 @@ height: 1000px;
         float: right;
 }
 
+/* Map */
+
+.map-section img {
+    width: 100%;
+    padding-top: 40px;
+}
+
 /* Footer section  */
 
 #footer{
+    padding: 64px 16px;
+    text-align: center;
+}
 
+#footer .socials-list{
+    font-size: 24px;
+
+}
+
+#footer .socials-list a {
+    color: rgba(0,0,0,0.6);
+    text-decoration: none;
+}
+
+#footer .socials-list a:hover {
+    color: rgba(0,0,0,0.4);
+}
+#footer .copyright {
+    color: rgba(0,0,0,0.6);
+    margin-top: 15px;
+
+}
+
+#footer .copyright a {
+    color: rgba(0,0,0,0.8);
 }
