@@ -96,7 +96,9 @@ cursor: pointer;
 
 margin-top: 46px;
 padding-top: 50%;
-background: url('/assets/img/type/04.jpg')  center / cover no-repeat;
+background: url(/assets/img/type/04.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 /* background-size: contain; */
 position: relative;
 }
